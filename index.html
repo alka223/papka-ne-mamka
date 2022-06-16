@@ -1,32 +1,205 @@
 <!doctype html>
 <head>
-    <title>hvh</title>
+    <title>kerych</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7648/7648564.png">
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+    body{
+        font-family: 'Amatic SC', cursive;
+        background-color: rgb(241, 220, 192);
+        color:rgb(104, 90, 90);
+        margin: 0;
+        text-align: center;
+    }
+    .table{
+            background-color: rgb(241, 220, 192);
+            transition: 4s;   
+    }
+    .hr{
+        background-color: rgb(255, 141, 141);
+    }
+    .li{
+        background-color: rgb(241, 220, 192);}
+        .top-container {
+            background-color: gainsboro;
+            position: relative;
+            padding-top: 100px;
+        }
+        h1{
+            color: #66bfbf;
+            font-size: 5.625rem;
+            margin: 50px auto 0 auto;
+        }
+        h2{
+            color: #66bfbf;
+            font-size: 2.5rem;
+            font-weight: normal;
+            padding-bottom: 10px;
+        }
+        .top-cloud {
+            position: absolute;
+            right: 300px;
+            top: 40px;
+            transition: 3s;
+        }
+        .bottom-cloud {
+            position: absolute;
+            left: 250px;
+            bottom: 300px;
+            transition: 3s;
+        }
+        .pro {
+            text-decoration: underline;
+            color: #66bfbf;
+            font-size: 2.5rem;
+            font-weight: normal;
+            padding-bottom: 10px;
+        }
+        .top-cloud:hover {
+        padding-left: 300px;
+        padding-top: 100px;
+    transition: 3s;}
+        .bottom-cloud:hover {
+            padding-left: 400px;
+            padding-top: 300px;
+            transition: 3s;
+        }
+        .mountain{
+            transition: 3s;
+        }
+        .mountain:hover {
+            padding-left: 900px;
+            padding-top:50px;
+            transition: 3s;
+        }
+        .joke {transition: 4s;}
+        .joke:hover {
+            padding-left: 100px;
+            padding-top: 120px;
+            transition: 4s;
+        }
+        .koil {transition: 3s;}
+        .koil:hover {
+            padding-left: 200px;
+            padding-bottom: 400px;
+            transition: 3s;
+        }
+        .table:hover{transition: 4s;}
+        .middle-container {
+            margin: 100px 0;
+        }
+        .intro { width: 30%;
+        margin: auto;}
+        .ok{transition: 5s;}
+        .ok:hover {
+            padding-top: 150px;
+            transition: 5s;
+        }
+        .pop{transition: 4s;}
+        .pop:hover{
+            padding-left: 700px;
+            padding-top: 100px;
+        }
+        .lol{transition: 5s;}
+        .lol:hover {
+            padding-bottom: 50px;
+            padding-left: 300px;
+            transition: 5s;
+        }
+        .io{transition: 4s;}
+        .io:hover{
+            padding-left: 50px;
+            padding-top: 100px;
+            transition: 4s;
+        }
+        .kol{transition: 1s;}
+        .kol:hover{
+            padding-left: 100px;
+            padding-top: 100px;
+            transition:1s;
+        }
+
+</style>
 <body>
+<div class="top-container">
+    <img class="top-cloud" src="images/cloud.png">
+    
+    <div class="title-text">
+        <h1 class="joke">Александр Можжерин</h1>
+        <h2 class="koil">я <span class="pro">лютый</span>-каэсер.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png">
+    <img class="mountain" src="images/mountain.png">
+</div>
+<div class="middle-container">
+    <div class="profile">
+     <img class="kol" width="600px" src="https://i.gifer.com/XOsX.gif">
+     <hr>
+     <div class="skills">
+     <h2>Что я умею?</h2>
+     <div class="skill-row">
+     <img class="code-img" width="200" src="https://i.gifer.com/47tv.gif">
+     <h3>
+        <p>
+
+        </p>
+     </h3>
+     </div>
+    <h2>Это не я, меня заставили</h2>
+    <p class="intro">Я живу и пока что не умер</p>
+</div>
+</div>
+</div>
+    <div>
+        <h1>Чему я не научился</h1>
+        <p>ВСЕМУ, а на примере-html</p>
+    </div>
+    <div class="ggwp">
+        <div class="lolkil47">
+            <img width="111px" src="https://i.gifer.com/UrB4.gif">
+            <h2>html</h2>
+            <p>важная вещь cs:go pppp</p>
+        </div>
+        <div class="kill">
+            <img width="100px" src="https://c.tenor.com/2k39sfHqhm0AAAAi/timmy-gsrp.gif">
+            <h2>CSS</h2>
+            <p>    Это красивая вещь должна быть вроде</p>
+        </div>
+        <div class="gg">
+            <img width="200px" src="https://c.tenor.com/ynKESsij9ZYAAAAM/venomancer-dota2.gif">
+            <h2>GITHUB</h2>
+            <P>это...</P>
+        </div>
+    </div>
     <table cellespacing="10">
         <tr>
-            <td><img width="300px" src="https://c.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif"></td>
+            <td><img class="pop" width="300px" src="https://c.tenor.com/H2mK_NOHBh8AAAAi/rick-and.gif"></td>
             <td><h2>Александр Можжерин</h2>
                 <p>Я веб-разработчик. Я люблю кофе и чтение книг.</p></td>
         </tr>
        
         </table>
     
-       <hr>
+       <hr class="hr">
     <h3>Книги, которые я рекомендую:</h3>
-    <ul>
-        <li>Ромео и джульета</li>
+    <ul> 
+        <li class="li">Ромео и джульета</li> 
         <li>451 градус по френгейту</li>
     </ul>
     <h3>Что же я могу?</h3>
-    <table cellespacing="10">
+    <table cellespacing="10" class="table">
         <tr>
             <td>Эйсы на мираже</td>
             <td>⭐⭐⭐⭐⭐</td>
         </tr>
         <tr>
             <td>типо текст</td>
-            <td>⭐⭐⭐⭐⭐</td>
+            <td class="ok"><img  width="30px" src="https://e7.pngegg.com/pngimages/390/591/png-clipart-man-pocket-mortys-morty-smith-rick-sanchez-facebook-drawing-rick-and-morty-child-face.png">
+                <img class="io" width="30px" src="https://e7.pngegg.com/pngimages/390/591/png-clipart-man-pocket-mortys-morty-smith-rick-sanchez-facebook-drawing-rick-and-morty-child-face.png">
+                <img width="30px" src="https://e7.pngegg.com/pngimages/390/591/png-clipart-man-pocket-mortys-morty-smith-rick-sanchez-facebook-drawing-rick-and-morty-child-face.png">
+                <img class="lol" width="30px" src="https://e7.pngegg.com/pngimages/390/591/png-clipart-man-pocket-mortys-morty-smith-rick-sanchez-facebook-drawing-rick-and-morty-child-face.png"></td>
         </tr>
         </table>
         <h2>Мои любимые карты в кс</h2>
@@ -38,7 +211,10 @@
                 <td>мираж(как в фозмафобии)</td>
             </tr>
         </table>
+        <button>
+            <a href="https://alka223.github.io/papka-ne-mamka/">не хочешь нажать?</a>
+        </button>
 
-    
+
    
 </body>
